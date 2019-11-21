@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3D15EFB5D3C06FE4240EBA22 /* Pods_NIBMArticle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEADD677C5B3C7A02D655CE /* Pods_NIBMArticle.framework */; };
+		4CBBE3972386E22700A9837F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CBBE3962386E22700A9837F /* GoogleService-Info.plist */; };
 		6D2803AA45255B7C4AC9D363 /* Pods_NIBMArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4F5BF0B43ED03F234711C6 /* Pods_NIBMArticleUITests.framework */; };
 		E213E6E13840346C0BC2EA3F /* Pods_NIBMArticleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52267C47062812A47B06AD63 /* Pods_NIBMArticleTests.framework */; };
 		FA187729238632930021073B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA187728238632930021073B /* Home.storyboard */; };
@@ -40,6 +41,7 @@
 		0B4CD3A9355430CD30C686B5 /* Pods-NIBMArticle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticle.debug.xcconfig"; path = "Target Support Files/Pods-NIBMArticle/Pods-NIBMArticle.debug.xcconfig"; sourceTree = "<group>"; };
 		1D0FDF9A745EA29DC16A5F20 /* Pods-NIBMArticleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticleTests.release.xcconfig"; path = "Target Support Files/Pods-NIBMArticleTests/Pods-NIBMArticleTests.release.xcconfig"; sourceTree = "<group>"; };
 		462C96F72031B5275F6DB107 /* Pods-NIBMArticleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticleUITests.release.xcconfig"; path = "Target Support Files/Pods-NIBMArticleUITests/Pods-NIBMArticleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CBBE3962386E22700A9837F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		52267C47062812A47B06AD63 /* Pods_NIBMArticleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBMArticleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D4229130E1B1E8B3177D3D /* Pods-NIBMArticleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticleTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBMArticleTests/Pods-NIBMArticleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		57B4D45BBE104155FC0B459D /* Pods-NIBMArticleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBMArticleUITests/Pods-NIBMArticleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +101,6 @@
 				57B4D45BBE104155FC0B459D /* Pods-NIBMArticleUITests.debug.xcconfig */,
 				462C96F72031B5275F6DB107 /* Pods-NIBMArticleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,6 +169,7 @@
 				FA238759237D699900F4A60C /* Assets.xcassets */,
 				FA23875B237D699900F4A60C /* LaunchScreen.storyboard */,
 				FA23875E237D699900F4A60C /* Info.plist */,
+				4CBBE3962386E22700A9837F /* GoogleService-Info.plist */,
 			);
 			path = NIBMArticle;
 			sourceTree = "<group>";
@@ -300,6 +302,7 @@
 			files = (
 				FA23875D237D699900F4A60C /* LaunchScreen.storyboard in Resources */,
 				FA23875A237D699900F4A60C /* Assets.xcassets in Resources */,
+				4CBBE3972386E22700A9837F /* GoogleService-Info.plist in Resources */,
 				FA238758237D699800F4A60C /* Main.storyboard in Resources */,
 				FA187729238632930021073B /* Home.storyboard in Resources */,
 			);
@@ -374,9 +377,24 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NIBMArticle/Pods-NIBMArticle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBMArticle/Pods-NIBMArticle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NIBMArticle/Pods-NIBMArticle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
