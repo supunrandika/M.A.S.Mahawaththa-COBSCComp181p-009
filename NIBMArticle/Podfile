@@ -9,7 +9,7 @@ target 'NIBMArticle' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Nuke','~>7.0'
-
+  pod 'BiometricAuthentication'
   # Pods for NIBMArticle
 
   target 'NIBMArticleTests' do

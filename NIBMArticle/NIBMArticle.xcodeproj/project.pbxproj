@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D15EFB5D3C06FE4240EBA22 /* Pods_NIBMArticle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEADD677C5B3C7A02D655CE /* Pods_NIBMArticle.framework */; };
 		6D2803AA45255B7C4AC9D363 /* Pods_NIBMArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4F5BF0B43ED03F234711C6 /* Pods_NIBMArticleUITests.framework */; };
+		D919F2442388588E00491101 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D919F2432388588E00491101 /* MenuViewController.swift */; };
 		E213E6E13840346C0BC2EA3F /* Pods_NIBMArticleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52267C47062812A47B06AD63 /* Pods_NIBMArticleTests.framework */; };
 		FA187729238632930021073B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA187728238632930021073B /* Home.storyboard */; };
 		FA23385A238766AD008620B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233859238766AD008620B4 /* LoginViewController.swift */; };
@@ -55,6 +56,7 @@
 		57B4D45BBE104155FC0B459D /* Pods-NIBMArticleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBMArticleUITests/Pods-NIBMArticleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4F5BF0B43ED03F234711C6 /* Pods_NIBMArticleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBMArticleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEADD677C5B3C7A02D655CE /* Pods_NIBMArticle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBMArticle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D919F2432388588E00491101 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FA187728238632930021073B /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FA233859238766AD008620B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA23385B238766E9008620B4 /* pwResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pwResetViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				FA23385D238766FD008620B4 /* HomeViewController.swift */,
 				FA2338692387ADC2008620B4 /* AddPostViewController.swift */,
 				FA23386D2387DC6C008620B4 /* ProfileViewController.swift */,
+				D919F2432388588E00491101 /* MenuViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				FA23385C238766E9008620B4 /* pwResetViewController.swift in Sources */,
 				FA238753237D699800F4A60C /* AppDelegate.swift in Sources */,
 				FA23385E238766FD008620B4 /* HomeViewController.swift in Sources */,
+				D919F2442388588E00491101 /* MenuViewController.swift in Sources */,
 				FA2338702387DD4C008620B4 /* postModel.swift in Sources */,
 				FA23386023876713008620B4 /* PostViewController.swift in Sources */,
 				FA23386223879033008620B4 /* Utils.swift in Sources */,
