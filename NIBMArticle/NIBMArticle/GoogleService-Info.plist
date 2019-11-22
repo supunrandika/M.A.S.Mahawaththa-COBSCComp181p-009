@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1025968066457-4vgvgp269jarpgupealj1vorfa8vrf0q.apps.googleusercontent.com</string>
+	<string>1025968066457-8gkj887cpa6llhlqab2hulofj25nokfd.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1025968066457-4vgvgp269jarpgupealj1vorfa8vrf0q</string>
+	<string>com.googleusercontent.apps.1025968066457-8gkj887cpa6llhlqab2hulofj25nokfd</string>
 	<key>API_KEY</key>
 	<string>AIzaSyADtIDRp6M9o_WcMTTcsCq1vwFe2Z9QMMY</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>rw.firebase.nibmarticle</string>
+	<string>com.nibm.NIBMArticle</string>
 	<key>PROJECT_ID</key>
 	<string>nibm-article-86558</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1025968066457:ios:0a8ee3e9093017be068d08</string>
+	<string>1:1025968066457:ios:dab068066638aa06068d08</string>
 	<key>DATABASE_URL</key>
 	<string>https://nibm-article-86558.firebaseio.com</string>
 </dict>

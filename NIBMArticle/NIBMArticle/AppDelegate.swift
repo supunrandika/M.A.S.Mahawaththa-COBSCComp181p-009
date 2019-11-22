@@ -14,10 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-    FirebaseApp.configure
+        FirebaseApp.configure()
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        //checks if user signed in
+        let storyboard = UIStoryboard(name: "Home", bundle: nil)
+        
+        let initialViewController = storyboard.instantiateViewController(withIdentifier: "homeStoryboard")
+        
+        self.window?.rootViewController = initialViewController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
